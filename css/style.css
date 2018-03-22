@@ -12,6 +12,9 @@ body {
 	margin: 0;
 }
 
+/* -----------------------------------------------
+TYPOGRAPHY
+-------------------------------------------------*/
 h1 {
 	font-size: 37px;
 	margin: 0;
@@ -35,6 +38,7 @@ p {
 }
 
 a {
+	color: #44545E;
 	text-decoration: none;
 }
 
@@ -42,6 +46,24 @@ a:hover {
 	color: #44545E;
 }
 
+/* -----------------------------------------------
+LAYOUT
+-------------------------------------------------*/
+.flex-container {
+	display: flex;
+}
+
+.col-3-4 {
+	width: 75%;
+}
+
+.col-1-4 {
+	width: 25%;
+}
+
+/* -----------------------------------------------
+MAIN CONTENT
+-------------------------------------------------*/
 nav {
 	padding: 20px;
 	text-align: center;
@@ -78,7 +100,6 @@ footer {
 	background-color: #CDF3F6;
 	padding: 50px;
 	text-align: center;
-
 }
 
 footer a {
